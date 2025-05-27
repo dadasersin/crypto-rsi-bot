@@ -1,1 +1,8 @@
-
+{
+  "rsiPeriod": 14,
+  "overbought": 70,    // Satış yapılacak RSI değeri
+  "oversold": 30,      // Alım yapılacak RSI değeri
+  "symbols": ["BTCUSDT", "ETHUSDT"], // İzlenecek semboller
+  "amount": 100,       // İşlem başına miktar (USD)
+  "isTestMode": true   // Test modu (true/false)
+}
